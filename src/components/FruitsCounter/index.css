@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffd569;
+  padding: 50px;
+}
+.Box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: center;
+}
+.FBox {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: end; */
+}
+img {
+  width: 35%;
+}
+.FruitB {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  color: #ffd569;
+}
+.button {
+  cursor: pointer;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  margin: 20px;
+  width: 110px;
+}
+.Banana {
+}
